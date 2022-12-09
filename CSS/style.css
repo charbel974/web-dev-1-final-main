@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(178, 209, 236);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-gap: 50px;
+  width: 100%;
+}
+
+.content {
+  animation-name: fade-in;
+  animation-duration: 2s;
+}
+
+.sidebar {
+  animation-name: fade-in;
+  animation-duration: 2s;
+}
+
+/* .hello {
+    font-size: 40px;
+
+}  */
+
+#gtr-image {
+  height: 20rem;
+  width: 35rem;
+  float: right;
+  transition: 0.5s ease;
+}
+
+#gtr-image:hover {
+  width: 40rem;
+}
+
+.subtitle-h2 {
+  color: red;
+}
+
+.list-item {
+  font-family: "Courier New", Courier, monospace;
+}
+ul,
+ol {
+  color: rgb(27, 6, 102);
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.image-grid > img {
+  margin: 10px;
+}
+img {
+  height: 10rem;
+  width: 15rem;
+  transition: 0.5s ease;
+}
+img:hover {
+  height: 15rem;
+  width: 20rem;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
