@@ -88,7 +88,7 @@
     <!-- Slider -->
     <div class="login-page" >
   <div class="form">
-    <form class="login-form" action="http://cs99.bradley.edu/~mnyamagouda/cgi-bin/register.cgi" method="post" enctype="multipart/form-data" onSubmit="return validateForm( this );">
+    <form class="login-form" action="../registerUser.php" method="post" enctype="multipart/form-data">
 				<input type="text" placeholder="First Name" name="firstname" required>
 				<input type="text" placeholder="Last Name" name="lastname" required>
 				<input type="email" placeholder="Email ID" name="email" onChange="checkEmail( this );" required>

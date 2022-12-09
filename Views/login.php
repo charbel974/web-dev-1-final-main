@@ -97,7 +97,7 @@
     <!-- Slider -->
     <div class="login-page">
   <div class="form">
-    <form class="login-form" action="http://cs99.bradley.edu/~mnyamagouda/cgi-bin/login.cgi" method="get">
+    <form class="login-form" action="../loginUser.php" method="post">
       <input type="text" placeholder="Enter your username" name="username" required />
       <input type="password"  placeholder=" Enter your Password" name="password" required/>
       <input type="submit" value="Login" class="button">
